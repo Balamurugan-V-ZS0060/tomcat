@@ -1,0 +1,247 @@
+15:23:23.964 [main] INFO  c.v.f.s.startup.DevModeInitializer - Starting dev-mode updaters in C:\workspace-sid\shorex\bg-shorex-contentsync folder.
+15:23:24.006 [main] INFO  dev-updater - Visited 81 classes. Took 19 ms.
+15:23:24.016 [main] INFO  dev-updater - Added 41 dependencies to 'C:\workspace-sid\shorex\bg-shorex-contentsync\target\frontend\package.json'
+15:23:24.039 [main] INFO  dev-updater - Updated npm C:\workspace-sid\shorex\bg-shorex-contentsync\target\frontend\package.json.
+15:23:24.046 [main] INFO  dev-updater - Running `npm install` ...
+15:23:48.502 [main] INFO  dev-updater - package.json updated and npm dependencies installed. 
+15:23:48.503 [main] INFO  dev-updater - Copying frontend resources from jar files ...
+15:23:48.532 [main] INFO  dev-updater - Visited 12 resources. Took 28 ms.
+15:23:48.590 [main] INFO  dev-updater - Updated C:\workspace-sid\shorex\bg-shorex-contentsync\target\frontend\generated-flow-imports.js
+15:23:48.599 [main] INFO  dev-webpack - Reusing webpack-dev-server running at http://localhost:43974
+15:23:49.333 [main] INFO  c.c.controlcenterui.ShoreSideApp - Starting ShoreSideApp v2.0-SNAPSHOT on EC2AMAZ-ERVIM43 with PID 6628 (C:\Softwares\tomcat\webapps\contentsync\WEB-INF\classes started by Administrator in C:\Softwares\tomcat\bin)
+15:23:49.335 [main] INFO  c.c.controlcenterui.ShoreSideApp - No active profile set, falling back to default profiles: default
+15:23:50.177 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+15:23:50.275 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 85ms. Found 3 repository interfaces.
+15:23:51.086 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$501c5825] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:23:51.152 [main] INFO  o.a.c.c.C.[.[.[/contentsync] - Initializing Spring embedded WebApplicationContext
+15:23:51.152 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1769 ms
+15:23:51.614 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+15:23:51.788 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+15:23:51.892 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+15:23:52.035 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+15:23:52.039 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+15:23:52.369 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+15:23:52.697 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+15:23:53.985 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:23:54.423 [main] INFO  c.c.c.utils.ContentSyncUtils - Identified root folder to be C:/User/Administrator
+15:23:54.423 [main] INFO  c.c.c.utils.ContentSyncUtils - entry fetchData
+15:23:54.528 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+15:23:55.101 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/VAADIN/**'], []
+15:23:55.102 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/favicon.ico'], []
+15:23:55.103 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/robots.txt'], []
+15:23:55.103 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/manifest.webmanifest'], []
+15:23:55.104 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/sw.js'], []
+15:23:55.104 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/offline-page.html'], []
+15:23:55.105 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/icons/**'], []
+15:23:55.105 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/images/**'], []
+15:23:55.106 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/styles/**'], []
+15:23:55.106 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/frontstyle/**'], []
+15:23:55.106 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/frontend/**'], []
+15:23:55.107 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/webjars/**'], []
+15:23:55.107 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/h2-console/**'], []
+15:23:55.108 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/frontend-es5/**'], []
+15:23:55.108 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/frontend-es6/**'], []
+15:23:55.165 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c82fb72, org.springframework.security.web.context.SecurityContextPersistenceFilter@3cbe0f66, org.springframework.security.web.header.HeaderWriterFilter@15434168, org.springframework.security.web.authentication.logout.LogoutFilter@373f4ca, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@475532ac, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@295e2d13, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4113362d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22c741c, org.springframework.security.web.session.SessionManagementFilter@7903f7f8, org.springframework.security.web.access.ExceptionTranslationFilter@592d71, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@76484762]
+15:23:55.464 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:23:55.827 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:23:56.203 [main] INFO  c.c.controlcenterui.ShoreSideApp - Started ShoreSideApp in 7.422 seconds (JVM running for 145.188)
+15:23:56.228 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.quartz.core.SchedulerFactory.instantiate(SchedulerFactory.java:105)
+
+The following method did not exist:
+
+    org.quartz.core.QuartzSchedulerResources.setThreadPool(Lorg/quartz/core/ThreadPool;)V
+
+The method's class, org.quartz.core.QuartzSchedulerResources, is available from the following locations:
+
+    jar:file:/C:/Softwares/tomcat/webapps/contentsync/WEB-INF/lib/quartz-2.0.2.jar!/org/quartz/core/QuartzSchedulerResources.class
+    jar:file:/C:/Softwares/tomcat/webapps/contentsync/WEB-INF/lib/sundial-2.2.0.jar!/org/quartz/core/QuartzSchedulerResources.class
+
+It was loaded from the following location:
+
+    file:/C:/Softwares/tomcat/webapps/contentsync/WEB-INF/lib/quartz-2.0.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.quartz.core.QuartzSchedulerResources
+
+15:23:56.234 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+15:23:56.235 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15:23:56.238 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+15:23:56.242 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+15:32:32.009 [main] INFO  c.v.f.s.startup.DevModeInitializer - Starting dev-mode updaters in C:\workspace-sid\shorex\bg-shorex-contentsync folder.
+15:32:32.064 [main] INFO  dev-updater - Visited 81 classes. Took 30 ms.
+15:32:32.085 [main] INFO  dev-updater - Skipping `npm install`.
+15:32:32.086 [main] INFO  dev-updater - Copying frontend resources from jar files ...
+15:32:32.273 [main] INFO  dev-updater - Visited 12 resources. Took 187 ms.
+15:32:32.354 [main] INFO  dev-updater - No js modules to update 'C:\workspace-sid\shorex\bg-shorex-contentsync\target\frontend\generated-flow-imports.js' file
+15:32:34.037 [main] INFO  dev-webpack - Starting webpack-dev-server, port: 44282 dir: C:\workspace-sid\shorex\bg-shorex-contentsync
+15:32:34.041 [main] INFO  dev-webpack - Waiting for webpack compilation before proceeding.
+15:33:07.660 [main] INFO  dev-webpack - Webpack startup and compilation completed in 33623ms
+15:33:08.511 [main] INFO  c.c.controlcenterui.ShoreSideApp - Starting ShoreSideApp v2.0-SNAPSHOT on EC2AMAZ-ERVIM43 with PID 8200 (C:\Softwares\tomcat\webapps\contentsync\WEB-INF\classes started by Administrator in C:\Softwares\tomcat\bin)
+15:33:08.513 [main] INFO  c.c.controlcenterui.ShoreSideApp - No active profile set, falling back to default profiles: default
+15:33:09.457 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+15:33:09.561 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91ms. Found 3 repository interfaces.
+15:33:10.388 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f2413b95] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:33:10.452 [main] INFO  o.a.c.c.C.[.[.[/contentsync] - Initializing Spring embedded WebApplicationContext
+15:33:10.452 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1883 ms
+15:33:10.931 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:33:11.304 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:33:11.417 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+15:33:11.577 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+15:33:11.581 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+15:33:11.868 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+15:33:12.219 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+15:33:13.719 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:33:14.170 [main] INFO  c.c.c.utils.ContentSyncUtils - Identified root folder to be C:/User/Administrator
+15:33:14.170 [main] INFO  c.c.c.utils.ContentSyncUtils - entry fetchData
+15:33:14.273 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+15:33:14.871 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/VAADIN/**'], []
+15:33:14.871 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/favicon.ico'], []
+15:33:14.873 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/robots.txt'], []
+15:33:14.873 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/manifest.webmanifest'], []
+15:33:14.873 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/sw.js'], []
+15:33:14.874 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/offline-page.html'], []
+15:33:14.874 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/icons/**'], []
+15:33:14.875 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/images/**'], []
+15:33:14.875 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/styles/**'], []
+15:33:14.876 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/frontstyle/**'], []
+15:33:14.876 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/frontend/**'], []
+15:33:14.877 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/webjars/**'], []
+15:33:14.877 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/h2-console/**'], []
+15:33:14.878 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/frontend-es5/**'], []
+15:33:14.878 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/frontend-es6/**'], []
+15:33:14.932 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17df97a0, org.springframework.security.web.context.SecurityContextPersistenceFilter@68cea629, org.springframework.security.web.header.HeaderWriterFilter@409cce6d, org.springframework.security.web.authentication.logout.LogoutFilter@53eecafc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4747a860, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61479848, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e7e7c60, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6da12993, org.springframework.security.web.session.SessionManagementFilter@42131d1d, org.springframework.security.web.access.ExceptionTranslationFilter@760ed5eb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@cc42b44]
+15:33:15.241 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:33:15.327 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:33:15.718 [main] INFO  c.c.controlcenterui.ShoreSideApp - Started ShoreSideApp in 7.86 seconds (JVM running for 58.153)
+15:33:15.742 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.quartz.core.SchedulerFactory.instantiate(SchedulerFactory.java:105)
+
+The following method did not exist:
+
+    org.quartz.core.QuartzSchedulerResources.setThreadPool(Lorg/quartz/core/ThreadPool;)V
+
+The method's class, org.quartz.core.QuartzSchedulerResources, is available from the following locations:
+
+    jar:file:/C:/Softwares/tomcat/webapps/contentsync/WEB-INF/lib/quartz-2.0.2.jar!/org/quartz/core/QuartzSchedulerResources.class
+    jar:file:/C:/Softwares/tomcat/webapps/contentsync/WEB-INF/lib/sundial-2.2.0.jar!/org/quartz/core/QuartzSchedulerResources.class
+
+It was loaded from the following location:
+
+    file:/C:/Softwares/tomcat/webapps/contentsync/WEB-INF/lib/quartz-2.0.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.quartz.core.QuartzSchedulerResources
+
+15:33:15.747 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+15:33:15.749 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15:33:15.752 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:33:15.756 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:45:59.720 [main] INFO  c.v.f.s.startup.DevModeInitializer - Starting dev-mode updaters in C:\workspace-sid\shorex\bg-shorex-contentsync folder.
+15:45:59.776 [main] INFO  dev-updater - Visited 81 classes. Took 31 ms.
+15:45:59.801 [main] INFO  dev-updater - Skipping `npm install`.
+15:45:59.802 [main] INFO  dev-updater - Copying frontend resources from jar files ...
+15:45:59.911 [main] INFO  dev-updater - Visited 12 resources. Took 108 ms.
+15:46:00.009 [main] INFO  dev-updater - Updated C:\workspace-sid\shorex\bg-shorex-contentsync\target\frontend\generated-flow-imports.js
+15:46:01.723 [main] INFO  dev-webpack - Starting webpack-dev-server, port: 44512 dir: C:\workspace-sid\shorex\bg-shorex-contentsync
+15:46:01.729 [main] INFO  dev-webpack - Waiting for webpack compilation before proceeding.
+15:46:11.320 [main] INFO  dev-webpack - Webpack startup and compilation completed in 9596ms
+15:46:12.178 [main] INFO  c.c.controlcenterui.ShoreSideApp - Starting ShoreSideApp v2.0-SNAPSHOT on EC2AMAZ-ERVIM43 with PID 1912 (C:\Softwares\tomcat\webapps\contentsync\WEB-INF\classes started by Administrator in C:\Softwares\tomcat\bin)
+15:46:12.182 [main] INFO  c.c.controlcenterui.ShoreSideApp - No active profile set, falling back to default profiles: default
+15:46:13.176 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+15:46:13.284 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 94ms. Found 3 repository interfaces.
+15:46:14.123 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$74b0175f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:46:14.186 [main] INFO  o.a.c.c.C.[.[.[/contentsync] - Initializing Spring embedded WebApplicationContext
+15:46:14.186 [main] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1936 ms
+15:46:14.684 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:46:15.073 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:46:15.201 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+15:46:15.371 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.3.10.Final}
+15:46:15.376 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+15:46:15.658 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+15:46:16.012 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+15:46:17.539 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+15:46:18.031 [main] INFO  c.c.c.utils.ContentSyncUtils - Identified root folder to be C:/User/Administrator
+15:46:18.036 [main] INFO  c.c.c.utils.ContentSyncUtils - entry fetchData
+15:46:18.144 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+15:46:18.735 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/VAADIN/**'], []
+15:46:18.735 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/favicon.ico'], []
+15:46:18.738 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/robots.txt'], []
+15:46:18.738 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/manifest.webmanifest'], []
+15:46:18.739 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/sw.js'], []
+15:46:18.739 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/offline-page.html'], []
+15:46:18.740 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/icons/**'], []
+15:46:18.740 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/images/**'], []
+15:46:18.741 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/styles/**'], []
+15:46:18.742 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/frontstyle/**'], []
+15:46:18.742 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/frontend/**'], []
+15:46:18.743 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/webjars/**'], []
+15:46:18.743 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/h2-console/**'], []
+15:46:18.744 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/frontend-es5/**'], []
+15:46:18.744 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/frontend-es6/**'], []
+15:46:18.807 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@507f939a, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f049abd, org.springframework.security.web.header.HeaderWriterFilter@7fdd009a, org.springframework.security.web.authentication.logout.LogoutFilter@6da12993, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1df81376, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4617f9a8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3654fcb2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d415940, org.springframework.security.web.session.SessionManagementFilter@bef7775, org.springframework.security.web.access.ExceptionTranslationFilter@4de841ae, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2fa64353]
+15:46:19.130 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+15:46:19.219 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+15:46:19.635 [main] INFO  c.c.controlcenterui.ShoreSideApp - Started ShoreSideApp in 8.122 seconds (JVM running for 34.429)
+15:46:19.665 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.quartz.core.SchedulerFactory.instantiate(SchedulerFactory.java:105)
+
+The following method did not exist:
+
+    org.quartz.core.QuartzSchedulerResources.setThreadPool(Lorg/quartz/core/ThreadPool;)V
+
+The method's class, org.quartz.core.QuartzSchedulerResources, is available from the following locations:
+
+    jar:file:/C:/Softwares/tomcat/webapps/contentsync/WEB-INF/lib/quartz-2.0.2.jar!/org/quartz/core/QuartzSchedulerResources.class
+    jar:file:/C:/Softwares/tomcat/webapps/contentsync/WEB-INF/lib/sundial-2.2.0.jar!/org/quartz/core/QuartzSchedulerResources.class
+
+It was loaded from the following location:
+
+    file:/C:/Softwares/tomcat/webapps/contentsync/WEB-INF/lib/quartz-2.0.2.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of org.quartz.core.QuartzSchedulerResources
+
+15:46:19.674 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+15:46:19.676 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+15:46:19.678 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:46:19.685 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
