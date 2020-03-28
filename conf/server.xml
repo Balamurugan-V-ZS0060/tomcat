@@ -165,6 +165,14 @@
                pattern="%h %l %u %t &quot;%r&quot; %s %b" />
 
       </Host>
+      <!--
+      <Host name="shorex.zucisystems.com" appBase="webapps" unpackWARs="true" autoDeploy="true">
+        <Alias>shorex.zucisystems.com</Alias>
+        <Context path="" docBase="ccui" debug="0" privileged="true" />
+        <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" 
+        prefix="localhost_access_log." suffix=".txt" pattern="%h %l %u %t &quot;%r&quot; %s %b" resolveHosts="false" />
+      </Host>
+      -->
     </Engine>
   </Service>
 </Server>
